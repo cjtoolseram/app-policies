@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Changes: I Ching Atlas</title>
+<meta name="description" content="Changes is an educational app for studying the I Ching: the 64 hexagrams in Chinese, plain English and Legge, a step-by-step Learn path, and casting with every step of the arithmetic shown.">
+<style>
+  :root {
+    --bg: #faf8f3;
+    --text: #22201c;
+    --muted: #5f5a50;
+    --card: #f0ebe0;
+    --border: #d9d1c0;
+    --accent: #8a3b2a;
+    --link: #7a2f1f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151412;
+      --text: #ece8df;
+      --muted: #b3ab9c;
+      --card: #211f1b;
+      --border: #3a362f;
+      --accent: #e0a08f;
+      --link: #f0b4a3;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 1.0625rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+  }
+  .wrap { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+  header.site { display: flex; align-items: center; gap: .75rem; margin-bottom: 2rem; }
+  .mark {
+    width: 2.5rem; height: 2.5rem; border-radius: .6rem;
+    display: grid; place-items: center;
+    background: var(--accent); color: var(--bg);
+    font-size: 1.4rem; font-weight: 700; line-height: 1;
+  }
+  .brand { font-weight: 600; font-size: 1.1rem; }
+  .eyebrow { color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; font-weight: 600; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: .25rem 0 .25rem; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+  .updated { color: var(--muted); font-size: .95rem; margin-bottom: 1.5rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: .75rem; padding: 1rem 1.1rem; margin: 1rem 0 1.5rem;
+  }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--link); text-underline-offset: .15em; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .note { color: var(--muted); font-size: .95rem; border-top: 1px solid var(--border); margin-top: 2rem; padding-top: 1rem; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
+  nav.pages { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <div class="mark" aria-hidden="true">易</div>
+    <div class="brand">Changes: I Ching Atlas</div>
+  </header>
+  <main>
+    <div class="eyebrow">易經 · Educational I Ching reference</div>
+    <h1>Changes: I Ching Atlas</h1>
+    <p>An educational app for studying the I Ching, a classic of Chinese thought. Read all 64 hexagrams in
+    the Chinese original, a plain-English reading and James Legge's 1882 translation; follow a
+    step-by-step Learn path from yin and yang lines to reading a cast; and cast a hexagram yourself with
+    three coins, yarrow stalks or the Plum Blossom method, with every step of the arithmetic shown.
+    Works offline, with no account, no ads and no data collected. Readings are for study and reflection,
+    not prediction.</p>
+    <div class="card">
+      <p>Coming soon to the App Store and Google Play.</p>
+    </div>
+    <div class="card">
+      <p><a href="privacy.html">Privacy Policy</a></p>
+      <p><a href="terms.html">Terms of Use</a></p>
+      <p><a href="support.html">Support</a></p>
+    </div>
+  </main>
+  <footer><nav class="pages"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="support.html">Support</a><a href="../">All apps</a></nav></footer>
+</div>
+</body>
+</html>
